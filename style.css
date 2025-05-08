@@ -72,6 +72,32 @@ body{
     font-size: 14px;
 }
 
+.area-buscar button{
+    padding: 8px 12px;
+    background: linear-gradient(to top, rgb(255, 74, 74), yellow);
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:  'Press Start 2P', cursive;
+    font-weight: bold;
+    transform: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.area-buscar button:hover{
+    background: linear-gradient(to bottom, rgb(255, 74, 74), yellow);
+    transform: scale(1.05s);
+}
+.chip-tipo{
+    display: inline-block;
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+
+}
+
 
 .press-start-2p-regular {
     font-family: "Press Start 2P", system-ui;

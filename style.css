@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(255, 74, 74), yellow);
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;height: 100vh;
+    background-color: antiquewhite;
+    color: #333;
+    padding: 20px;
+}
+
+.container{
+    background-color: white;
+    border: 3px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(73, 73, 73);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.imagem-pokemom{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px black;
+    object-fit: contain;
+} 
+
+.info-pokemon{
+    font-size: 18px;
+    color: #666;
+}
+
+.info-pokemon p{
+    margin: 6px 0;
+}
+
+.fita-tipo{
+    display: inline-block;
+    background-color: aquamarine;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 14px;
+    margin-top: 8px;
+}
+
+.area-buscar{
+    margin-top: 20px;
+}
+
+.area-buscar input{
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid whitesmoke;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+

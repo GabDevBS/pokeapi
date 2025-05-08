@@ -15,31 +15,32 @@ body{
     padding: 20px;
 }
 
-.container{
-    background-color: white;
-    border: 3px solid #333;
+.container {
+    background-color: #fff0ff;
+    border: 3px solid #fffc35;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgb(73, 73, 73);
+    box-shadow: 0 0 25px #ffb922;
     padding: 30px;
-    width: 300px;
+    width: 320px;
     text-align: center;
     overflow: hidden;
 }
 
-.container h1{
-    font-size: 28px;
-    margin-bottom: 15px;
-    color: #333;
+.container h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #000000;
 }
 
-.imagem-pokemom{
+.imagem-pokemom {
     width: 150px;
     height: 150px;
     margin-bottom: 15px;
     border-radius: 50%;
-    box-shadow: 0 4px 12px black;
+    box-shadow: 0 4px 12px #7d3c98;
     object-fit: contain;
-} 
+    border: 2px solid #9b59b6;
+}
 
 .info-pokemon{
     font-size: 18px;
@@ -70,6 +71,32 @@ body{
     width: 80%;
     margin-bottom: 10px;
     font-size: 14px;
+}
+
+.area-buscar button{
+    padding: 8px 12px;
+    background: linear-gradient(to top, rgb(255, 74, 74), yellow);
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:  'Press Start 2P', cursive;
+    font-weight: bold;
+    transform: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.area-buscar button:hover{
+    background: linear-gradient(to bottom, rgb(255, 74, 74), yellow);
+    transform: scale(1.05s);
+}
+.chip-tipo{
+    display: inline-block;
+    margin: 5px;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+
 }
 
 
